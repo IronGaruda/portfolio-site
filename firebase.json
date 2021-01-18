@@ -14,7 +14,7 @@
     "source": "functions"
   },
   "hosting": {
-    "public": "src/index.html",
+    "public": "C:/Users/Christoph/Desktop/Portfolio/portfolio-site/src/index.html",
     "ignore": [
       "firebase.json",
       "**/.*",
