@@ -14,7 +14,7 @@
     "source": "functions"
   },
   "hosting": {
-    "public": "C:/Users/Christoph/Desktop/Portfolio/portfolio-site/src/index.html",
+    "public": "dist/ng-resume",
     "ignore": [
       "firebase.json",
       "**/.*",
