@@ -14,7 +14,7 @@
     "source": "functions"
   },
   "hosting": {
-    "public": "dist/portfolio-site",
+    "public": "src/index.html",
     "ignore": [
       "firebase.json",
       "**/.*",
