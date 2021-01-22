@@ -15,6 +15,9 @@ import { ApiCallComponent } from './api-call/api-call.component';
 import { ProjectGofilesComponent } from './components/project-gofiles/project-gofiles.component';
 import { ProjectR2Component } from './components/project-r2/project-r2.component';
 import { HomeComponent } from './components/home/home.component';
+import { ProjectIcewaterComponent } from './project-icewater/project-icewater.component';
+import { ProjectLeafdropComponent } from './project-leafdrop/project-leafdrop.component';
+import { ProjectUsedcarComponent } from './project-usedcar/project-usedcar.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { HomeComponent } from './components/home/home.component';
     ApiCallComponent,
     ProjectGofilesComponent,
     ProjectR2Component,
-    HomeComponent
+    HomeComponent,
+    ProjectIcewaterComponent,
+    ProjectLeafdropComponent,
+    ProjectUsedcarComponent
   ],
   imports: [
     BrowserModule,

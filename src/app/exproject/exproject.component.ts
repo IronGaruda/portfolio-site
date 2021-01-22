@@ -12,27 +12,27 @@ export class ExprojectComponent implements OnInit {
 
   public projects = [
     {
-      title: 'test project 1',
+      title: 'Leafdrop.co',
       imageURL: 'https://gortoncenter.org/wp-content/uploads/2018/03/LordOfTheRings.jpg',
-      url: 'https://www.youtube.com/watch?v=2sML2bq_WGw',
+      //url: 'https://www.youtube.com/watch?v=2sML2bq_WGw',
       markup: '<app-contact></app-contact>',
-      destination: 'gofiles',
+      destination: 'leafdrop',
       //color: '#4a1d9e'
     },
     {
-      title: 'test project 2',
+      title: 'ICEWATER',
       imageURL: 'https://gortoncenter.org/wp-content/uploads/2018/03/LordOfTheRings.jpg',
-      url: 'https://www.youtube.com/watch?v=2sML2bq_WGw',
+      //url: 'https://www.youtube.com/watch?v=2sML2bq_WGw',
       markup: '<app-contact></app-contact>', 
-      destination: 'r2',
+      destination: 'icewater',
       //color: '#1d989e'
     },
     {
-      title: 'test project 3',
+      title: 'Used Car Site',
       imageURL: 'https://gortoncenter.org/wp-content/uploads/2018/03/LordOfTheRings.jpg',
-      url: 'https://www.youtube.com/watch?v=2sML2bq_WGw',
+      //url: 'https://www.youtube.com/watch?v=2sML2bq_WGw',
       markup: '<app-contact></app-contact>',
-      destination: 'r2'
+      destination: 'usedcar'
     }
   ];
 
