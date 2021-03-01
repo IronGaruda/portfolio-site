@@ -6,9 +6,11 @@
         <default-content>
           <ul>
             <li>Accessible HTML</li>
-            <li>Responsive Mobile Design</li>
+            <li>Responsive Design</li>
+            <li>Mobile-First Principles</li>
             <li>Cross-Browser Compatible</li>
-            <li></li>
+            <li>SCSS/SASS</li>
+            <li> Version Control (Git)</li>
           </ul>
         </default-content>
         <active-content>
@@ -19,23 +21,40 @@
         </active-content>
       </app-project-container>
 
-      <app-project-container defaultTitle="JavaScript">
+      <app-project-container defaultTitle="JavaScript & Typescript">
         <default-content>
           <ul>
-            <li>Angular Framework</li>
-            <li>Experience With RESTful APIs</li>
-            <li>Reactive Development Principles</li>
-            <li></li>
+            <li>Experienced With JQuery</li>
+            <li>Experienced With RESTful APIs</li>
+            <li>Experienced With Both ES5 and ES6</li>
+            <li>Experienced with debugging</li>
+            <li>Experienced Working With Command-Line Interface (CLI)</li>
           </ul>
         </default-content>
         <active-content>
           <app-api-call (valueChange)='displayTitle($event)'></app-api-call> <!--API CALL WIDGET COMPONENT-->
         </active-content>
       </app-project-container>
+
+      <app-project-container defaultTitle="Angular & RxJS">
+        <default-content>
+          <ul>
+            <li>Reactive Development Principles</li>
+            <li>Experienced With Progressive Web Apps (PWA)</li>
+            <li>Experienced With Building Single Page Applications (SPA)</li>
+            <!-- <li></li> -->
+          </ul>
+        </default-content>
+        <active-content>
+          <app-type-ahead (valueChange)='displayTitle($event)'></app-type-ahead> <!--API CALL WIDGET COMPONENT-->
+        </active-content>
+      </app-project-container>
+
     </div>
-    <div class="right">
+
+    <!-- <div class="right">
       <app-animation-helper></app-animation-helper>
-    </div>
+    </div> -->
   </div>
 
 </div>

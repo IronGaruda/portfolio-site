@@ -6,13 +6,15 @@
         <img [src]="project.imageURL" width="100%" />
       </header-block>
       <default-content>
-        <p>Test content</p>
+        <div class="description-container">
+          <p>{{project.description}}</p>
+        </div>
       </default-content>
       <active-content>
         <div [innerHTML]="project.markup"></div>
         <div class="align">
           <a class="button-link" [routerLink]="['/' + project.destination]" target="_blank" (click)="openProject()">
-            <input type="button" class="project-button">
+            <input type="button" class="project-button" value="Site Overview">
           </a>
         </div>
       </active-content>

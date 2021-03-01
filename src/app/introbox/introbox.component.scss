@@ -11,8 +11,8 @@
   z-index: 9;
   position: relative;
 
-  @media (max-width: 600px) {
-    padding: 2rem;
+  @media (max-width: 1000px) {
+    padding: 10rem;
 
     .photo-area {
       display: none;
@@ -87,6 +87,12 @@
   }
 }
 
+.video-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .video-player {
   box-shadow:  0 0 20px #00000045;
   border-radius: 2rem;
@@ -117,6 +123,11 @@
    cursor: pointer;
 }
 
+.fadeIn {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+}
+
 .namebox-area {
     margin: .25rem 0;
     color: rgb(74, 29, 158);
@@ -136,6 +147,7 @@
     margin: auto;
     text-align: left;
     letter-spacing: .2rem;
+    margin-bottom: 5rem;
 }
 
 .fa-play-circle {
@@ -150,3 +162,44 @@
    // background-image: url(src\assets\img\skooll.png);
     background-size: cover;
 }
+
+.warning-box {
+  background-color: rgb(74, 29, 158);
+  height: 100px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.warning-text {
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }

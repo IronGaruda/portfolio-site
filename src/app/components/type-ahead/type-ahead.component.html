@@ -1,0 +1,7 @@
+<div class="typeahead-container">
+    <p>Type Ahead</p>
+    <input #typeAhead type="text" (keyup)="onSearch($event)">
+    <ul #suggestions class="suggestion-list" *ngIf="input$ | async as results" >
+      <li class="suggestion-item" *ngFor="let result of results">{{result.word}}</li>
+    </ul>
+</div>

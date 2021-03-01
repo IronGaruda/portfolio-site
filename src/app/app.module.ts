@@ -18,6 +18,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ProjectIcewaterComponent } from './components/project-icewater/project-icewater.component';
 import { ProjectLeafdropComponent } from './components/project-leafdrop/project-leafdrop.component';
 import { ProjectUsedcarComponent } from './components/project-usedcar/project-usedcar.component';
+import { TypeAheadComponent } from './components/type-ahead/type-ahead.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { ProjectUsedcarComponent } from './components/project-usedcar/project-us
     HomeComponent,
     ProjectIcewaterComponent,
     ProjectLeafdropComponent,
-    ProjectUsedcarComponent
+    ProjectUsedcarComponent,
+    TypeAheadComponent
   ],
   imports: [
     BrowserModule,

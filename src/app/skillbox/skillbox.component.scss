@@ -6,20 +6,42 @@
   box-sizing: border-box;
   margin-top: -5vw;
   padding-bottom: 12vw;
+  padding-left: 2rem;
 
 
   .skills-container {
     display: flex;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 12vw;
+
+    @media (max-width: 1000px) {
+      margin-bottom: 12vw;
+    }
 
     .left {
       display: flex;
+      flex-direction: row;
       box-sizing: border-box;
       justify-content: space-around;
       box-sizing: border-box;
-      width: 75%;
+      width: 100%;
       z-index: 99;
+      
+      app-project-container {
+        margin-bottom: 2rem;
+        height: 320px;
+        width: 320px;
+      }
+
+      @media (max-width: 1000px) {
+        flex-direction: column;
+
+        app-project-container {
+          margin-bottom: 2rem;
+          height: 320px;
+          width: 320px;
+        }
+      }
     }
 
     .right {
@@ -29,17 +51,9 @@
       margin-left: 2rem;
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 1000px) {
       padding: 0;
       flex-direction: column;
-
-      .left {
-        flex-direction: column;
-
-        app-project-container {
-          margin-bottom: 2rem;
-        }
-      }
 
       .left, .right {
         width: 100%;
@@ -47,7 +61,7 @@
     }
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 1000px) {
     padding: 2rem;
   }
 }

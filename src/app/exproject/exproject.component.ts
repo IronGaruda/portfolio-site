@@ -13,26 +13,25 @@ export class ExprojectComponent implements OnInit {
   public projects = [
     {
       title: 'Leafdrop.co',
-      imageURL: 'https://gortoncenter.org/wp-content/uploads/2018/03/LordOfTheRings.jpg',
-      //url: 'https://www.youtube.com/watch?v=2sML2bq_WGw',
+      imageURL: './assets/img/leafdrop-banner.jpg',
       markup: '<app-contact></app-contact>',
       destination: 'leafdrop',
-      //color: '#4a1d9e'
+      description: 
+      'LeafDrop.co is a retailer that aims to make a large range of Delta-8 THC products widely available for online purchase and delivery. They also host other resources for educational purposes regarding Delta-8 THC.'
     },
     {
       title: 'ICEWATER',
-      imageURL: 'https://gortoncenter.org/wp-content/uploads/2018/03/LordOfTheRings.jpg',
-      //url: 'https://www.youtube.com/watch?v=2sML2bq_WGw',
+      imageURL: './assets/img/icewater-banner.jpg',
       markup: '<app-contact></app-contact>', 
       destination: 'icewater',
-      //color: '#1d989e'
+      description: 'ICEWATER is a digital marketing and solutions platform that handles technology, content management, website upkeep, security and brand awareness utilizing a dynamic subscription model.'
     },
     {
-      title: 'Used Car Site',
-      imageURL: 'https://gortoncenter.org/wp-content/uploads/2018/03/LordOfTheRings.jpg',
-      //url: 'https://www.youtube.com/watch?v=2sML2bq_WGw',
+      title: 'GoFile',
+      imageURL: './assets/img/gofile-banner.jpg',
       markup: '<app-contact></app-contact>',
-      destination: 'usedcar'
+      destination: 'gofiles',
+      description: 'GoFile.io is a file sharing platform that allows users to share files between each other quickly, anonymously and for free.'
     }
   ];
 

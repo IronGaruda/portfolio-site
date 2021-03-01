@@ -1,15 +1,15 @@
 <div class="introbox-container" id="home">
   <div class="introbox-area">
     <div class="name-box">
-        <h1 class="namebox-area">Anthony Martire</h1>
+        <h1 class="namebox-area fadeIn">Anthony Martire</h1>
     </div>
-    <div class="job-title">
+    <div class="job-title fadeIn">
         <h2 class="job-title">Front-End Developer</h2>
     </div>
-    <div class="job-desc">
+    <div class="job-desc fadeIn">
         <p class="job-desc">Angular, JavaScript, HTML, CSS</p>
     </div>
-    <div class="play-box" (click)="toggleVideo()" *ngIf="hidePlay">
+    <!-- <div class="play-box" (click)="toggleVideo()" *ngIf="hidePlay">
         <button class="btn-box">
             <i class="far fa-play-circle" *ngIf="hidePlay"></i>
         </button>
@@ -17,6 +17,7 @@
     </div>
     <div class="move-box" [class.box-finished]="showVideo">
         <div class="video-box" *ngIf="showExit">
+            <div class="warning-box"><p class="warning-text">The introduction video is currently in development. In the meantime, please feel free to take a look at what the rest of my set has to offer. :)</p></div>
             <iframe class="video-player" width="560" height="315" [src]="safeUrl" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div (click)="toggleVideo(true)" *ngIf="showExit">
@@ -28,4 +29,4 @@
   </div>
   <div class="photo-area">
   </div>
-</div>
+</div> -->
