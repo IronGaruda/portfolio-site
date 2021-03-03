@@ -10,12 +10,19 @@
   z-index: 99;
   align-items: center;
   justify-content: space-between;
-  padding: 0 2rem;
+  padding-right: 2rem;
   box-sizing: border-box;
 
   .logo {
     height: 3rem;
     margin-right: 1rem;
+    width: 25%;
+
+    @media (max-width: 600px) {
+      width: 10%;
+      margin-right: 2rem;
+      margin-left: 1rem;
+    }
   }
 }
 
@@ -29,18 +36,18 @@
  width: 25%;
 }
 
-.nav-menu { //holds menu <a> contents
+.nav-menu { //holds menu <div> contents
   display: flex;
   align-items: center;
-  width: 40%;
+  width: 75%;
   justify-content: space-around;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 600px) {
     width: 100%;
     justify-content: space-between;
 
-    a {
-      font-size: 0.7rem;
+    div {
+      font-size: 0.75rem;
     }
   }
 
@@ -53,17 +60,16 @@
     font-style: normal;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1.5rem;
     cursor: pointer;
-  }
 
-  @media (max-width: 640px) {
-    width: 100%;
-
-    a {
-      font-size: 0.7rem;
+    @media (max-width: 600px) {
+      width: 100%;
+      font-size: 0.75rem;
+      justify-content: space-between;
     }
   }
+
+
 }
 
 .fa-bars { //menu button
